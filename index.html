@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Manrope:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -18,7 +22,7 @@
         <div class="hero-bg" aria-hidden="true"></div>
         <div class="hero-wash" aria-hidden="true"></div>
 
-        <header class="site-header">
+        <header class="site-header" data-aos="fade-down" data-aos-duration="650">
           <a class="brand" href="#" aria-label="Peak Regional Insurance home">
             <svg class="brand-mark" viewBox="0 0 64 52" aria-hidden="true">
               <path d="M5 46 23 15l9 15 9-15 18 31H45L32 24 19 46H5Z" />
@@ -44,7 +48,7 @@
           </div>
         </header>
 
-        <div class="hero-content">
+        <div class="hero-content" data-aos="fade-right" data-aos-duration="800">
           <p class="eyebrow">Workforce protection. Business confidence.</p>
           <h1>Protection built for modern employers.</h1>
           <p class="lede">
@@ -70,7 +74,7 @@
         </div>
 
         <div class="metrics" aria-label="Business performance metrics">
-          <article class="metric-card response">
+          <article class="metric-card response" data-aos="fade-left" data-aos-delay="100">
             <span class="metric-title">Claims Response</span>
             <strong>24/7</strong>
             <span>Average First Response</span>
@@ -83,7 +87,7 @@
             </div>
           </article>
 
-          <article class="metric-card workplace">
+          <article class="metric-card workplace" data-aos="fade-left" data-aos-delay="180">
             <span class="metric-title">Active Workplaces</span>
             <strong>12,840+</strong>
             <span>Businesses Protected</span>
@@ -97,7 +101,7 @@
             </div>
           </article>
 
-          <article class="metric-card people">
+          <article class="metric-card people" data-aos="fade-up" data-aos-delay="260">
             <span class="metric-title">People Protected</span>
             <strong>256,000+</strong>
             <span>Employees Covered</span>
@@ -109,7 +113,7 @@
             </div>
           </article>
 
-          <article class="metric-card retention">
+          <article class="metric-card retention" data-aos="fade-left" data-aos-delay="340">
             <span class="metric-title">Client Retention</span>
             <strong>96%</strong>
             <span>Year over Year</span>
@@ -125,7 +129,12 @@
           </article>
         </div>
 
-        <section class="trust-strip" aria-label="Trusted by businesses">
+        <section
+          class="trust-strip"
+          aria-label="Trusted by businesses"
+          data-aos="fade"
+          data-aos-offset="20"
+        >
           <div class="trust-label">
             <span class="trust-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -193,8 +202,8 @@
       </section>
 
       <section class="solutions-section" aria-label="Core solutions">
-        <div class="solutions-panel">
-          <div class="solutions-heading">
+        <div class="solutions-panel" data-aos="fade-up">
+          <div class="solutions-heading" data-aos="fade-up" data-aos-delay="80">
             <div>
               <p class="eyebrow">Our core solutions</p>
               <h2>Integrated protection. Seamless operations.</h2>
@@ -212,7 +221,7 @@
           </div>
 
           <div class="solution-cards">
-            <article class="solution-card">
+            <article class="solution-card" data-aos="fade-up" data-aos-delay="100">
               <div class="solution-media">
                 <img
                   src="assets/solution-payroll.png"
@@ -247,7 +256,7 @@
               </div>
             </article>
 
-            <article class="solution-card">
+            <article class="solution-card" data-aos="fade-up" data-aos-delay="180">
               <div class="solution-media">
                 <img
                   src="assets/solution-workers-comp.png"
@@ -284,7 +293,7 @@
               </div>
             </article>
 
-            <article class="solution-card">
+            <article class="solution-card" data-aos="fade-up" data-aos-delay="260">
               <div class="solution-media">
                 <img
                   src="assets/solution-liability.png"
@@ -323,8 +332,8 @@
       </section>
 
       <section class="results-section" aria-label="Company results">
-        <div class="results-band">
-          <div class="results-copy">
+        <div class="results-band" data-aos="fade-up">
+          <div class="results-copy" data-aos="fade-right" data-aos-delay="80">
             <h2>Built on trust. Focused on results.</h2>
             <p>
               For over 25 years, businesses have relied on Peak Regional
@@ -339,7 +348,7 @@
             </a>
           </div>
 
-          <div class="result-stat">
+          <div class="result-stat" data-aos="fade-up" data-aos-delay="120">
             <span class="result-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M12 5v14" />
@@ -351,7 +360,7 @@
             <span>Years Serving Employers</span>
           </div>
 
-          <div class="result-stat">
+          <div class="result-stat" data-aos="fade-up" data-aos-delay="190">
             <span class="result-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M7 7h11v14H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10" />
@@ -362,7 +371,7 @@
             <span>In Claims Processed</span>
           </div>
 
-          <div class="result-stat">
+          <div class="result-stat" data-aos="fade-up" data-aos-delay="260">
             <span class="result-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="m12 3 7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3Z" />
@@ -373,7 +382,7 @@
             <span>Claims Satisfaction Rating</span>
           </div>
 
-          <div class="result-stat">
+          <div class="result-stat" data-aos="fade-up" data-aos-delay="330">
             <span class="result-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="m12 3 8 4v5c0 5-3.2 8-8 10-4.8-2-8-5-8-10V7l8-4Z" />
@@ -387,8 +396,8 @@
       </section>
 
       <section class="claims-section" aria-label="Claims and compliance support">
-        <div class="claims-panel">
-          <div class="claims-copy">
+        <div class="claims-panel" data-aos="fade-up">
+          <div class="claims-copy" data-aos="fade-right" data-aos-delay="80">
             <p class="eyebrow">Claims &amp; compliance</p>
             <h2>Support when it matters most.</h2>
             <p>
@@ -416,14 +425,19 @@
             </div>
           </div>
 
-          <div class="claims-image">
+          <div class="claims-image" data-aos="fade-up" data-aos-delay="150">
             <img
               src="assets/claims-support.png"
               alt="Claims specialist wearing a headset while working on a laptop"
             />
           </div>
 
-          <aside class="claims-process" aria-label="Claims process">
+          <aside
+            class="claims-process"
+            aria-label="Claims process"
+            data-aos="fade-left"
+            data-aos-delay="220"
+          >
             <h3>Our Claims Process</h3>
             <ol>
               <li>
@@ -457,30 +471,30 @@
       </section>
 
       <section class="industries-section" aria-label="Industries served">
-        <div class="industries-panel">
+        <div class="industries-panel" data-aos="fade-up">
           <p class="eyebrow">Protecting businesses across industries</p>
           <div class="industry-grid">
-            <a class="industry-card" href="#">
+            <a class="industry-card" href="#" data-aos="fade-up" data-aos-delay="80">
               <img src="assets/solution-workers-comp.png" alt="Construction workers on a job site" />
               <span>Construction</span>
             </a>
-            <a class="industry-card" href="#">
+            <a class="industry-card" href="#" data-aos="fade-up" data-aos-delay="130">
               <img src="assets/claims-support.png" alt="Manufacturing support specialist at work" />
               <span>Manufacturing</span>
             </a>
-            <a class="industry-card" href="#">
+            <a class="industry-card" href="#" data-aos="fade-up" data-aos-delay="180">
               <img src="assets/solution-payroll.png" alt="Healthcare administrator working at a laptop" />
               <span>Healthcare</span>
             </a>
-            <a class="industry-card" href="#">
+            <a class="industry-card" href="#" data-aos="fade-up" data-aos-delay="230">
               <img src="assets/solution-liability.png" alt="Logistics manager in a warehouse" />
               <span>Logistics &amp; Transportation</span>
             </a>
-            <a class="industry-card" href="#">
+            <a class="industry-card" href="#" data-aos="fade-up" data-aos-delay="280">
               <img src="assets/industry-retail.png" alt="Retail and hospitality business team" />
               <span>Retail &amp; Hospitality</span>
             </a>
-            <article class="industry-more">
+            <article class="industry-more" data-aos="fade-up" data-aos-delay="330">
               <strong>And More</strong>
               <p>Solutions for every industry and every size.</p>
               <a href="#">
@@ -495,8 +509,8 @@
       </section>
 
       <section class="testimonial-section" aria-label="Customer testimonial">
-        <div class="testimonial-panel">
-          <div class="testimonial-copy">
+        <div class="testimonial-panel" data-aos="fade-up">
+          <div class="testimonial-copy" data-aos="fade-right" data-aos-delay="80">
             <span class="quote-mark">“</span>
             <blockquote>
               Peak Regional Insurance is more than a provider. They’re a partner
@@ -512,7 +526,7 @@
               <span class="stars" aria-label="Five star rating">★★★★★</span>
             </div>
           </div>
-          <div class="testimonial-media">
+          <div class="testimonial-media" data-aos="fade-left" data-aos-delay="140">
             <img
               src="assets/testimonial-meeting.png"
               alt="Business clients smiling in a meeting"
@@ -526,7 +540,7 @@
       </section>
 
       <section class="final-cta-section" aria-label="Get a quote">
-        <div class="final-cta">
+        <div class="final-cta" data-aos="fade-up">
           <span class="final-cta-icon">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M4 20h16" />
@@ -546,7 +560,7 @@
         </div>
       </section>
 
-      <footer class="site-footer">
+      <footer class="site-footer" data-aos="fade-up" data-aos-offset="20">
         <div class="footer-inner">
           <div class="footer-brand">
             <a class="brand" href="#" aria-label="Peak Regional Insurance home">
@@ -625,5 +639,20 @@
         </div>
       </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      if (window.AOS) {
+        AOS.init({
+          once: true,
+          duration: 700,
+          easing: "ease-out-cubic",
+          offset: 70,
+          disable: () =>
+            window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+        });
+      } else {
+        document.documentElement.classList.add("aos-fallback");
+      }
+    </script>
   </body>
 </html>

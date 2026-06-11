@@ -18,6 +18,29 @@
 html,
 body {
   font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+.aos-fallback [data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.aos-fallback .trust-strip {
+  transform: translateX(-50%) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .trust-strip {
+    transform: translateX(-50%) !important;
+  }
 }
 
 body {
@@ -1699,6 +1722,11 @@ blockquote {
 }
 
 @media (max-width: 720px) {
+  .aos-fallback .trust-strip,
+  .trust-strip[data-aos] {
+    transform: none !important;
+  }
+
   .hero-shell {
     padding-top: 0;
   }
