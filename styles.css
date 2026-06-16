@@ -28,7 +28,7 @@ body {
 }
 
 .aos-fallback .trust-strip {
-  transform: translateX(-50%) !important;
+  transform: none !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -39,7 +39,7 @@ body {
   }
 
   .trust-strip {
-    transform: translateX(-50%) !important;
+    transform: none !important;
   }
 }
 
@@ -381,7 +381,8 @@ h1 {
 
 .trust-strip {
   position: absolute;
-  left: 50%;
+  left: 0;
+  right: 0;
   z-index: 6;
   bottom: -42px;
   display: grid;
@@ -396,7 +397,8 @@ h1 {
   background: rgba(255, 255, 255, 0.92);
   box-shadow: 0 -12px 38px rgba(33, 43, 53, 0.1);
   backdrop-filter: blur(20px);
-  transform: translateX(-50%);
+  margin: 0 auto;
+  transform: none;
 }
 
 .trust-label {
